@@ -5,6 +5,7 @@ In this project, I utilized an Excel dataset with information about various prop
 
 
 original dataset before cleaning
+
 Fig. 1. Original Dataset
 
 The initial step of my data cleaning process was to observe the data to find what adjustments needed to be made. Various qualities of the data jumped out to me, such as the PropertyAddress field, which could be better analyzed if separated into multiple columns. Other observations included the presence of various NULL values, the formatting for DATE fields, formatting for the SoldAsVacant field, and duplicate data.
