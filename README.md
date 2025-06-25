@@ -1,5 +1,8 @@
 # SQL_Data_Cleaning: Cleaning Data Within a Housing Information Dataset Using SQL
 
+***
+#### Tools Used: SQL, Excel, SQL Server Management Studio, SQL Server
+***
 
 In this project, I utilized an Excel dataset with information about various properties. In the image below, you can see what the original uncleaned dataset looked like.
 <br><br>
