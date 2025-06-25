@@ -185,17 +185,20 @@ WHERE
 
 
 
---==================================================
---STEP TEN: Creating a backup table for cleaned data
---==================================================
+
+--================================================
+--STEP TEN: Removing Columns that are not needed
+--================================================
+ALTER TABLE HousingData
+DROP COLUMN OwnerAddress, TaxDistrict, PropertyAddress
+
+
+
+--=====================================================
+--STEP ELEVEN: Creating a backup table for cleaned data
+--=====================================================
 SELECT *
 INTO HousingData_Cleaned
 FROM HousingData;
 
 
-
---================================================
---STEP ELEVEN Removing Columns that are not needed
---================================================
-ALTER TABLE HousingData
-DROP COLUMN OwnerAddress, TaxDistrict, PropertyAddress
