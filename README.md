@@ -1,6 +1,6 @@
-# SQL_Data_Cleaning
-Cleaning Data Within a Housing Information Dataset Using SQL
-Data Cleaning with SQL -- GitHub
+# SQL_Data_Cleaning: Cleaning Data Within a Housing Information Dataset Using SQL
+
+
 In this project, I utilized an Excel dataset with information about various properties. In the image below, you can see what the original uncleaned dataset looked like.
 
 
